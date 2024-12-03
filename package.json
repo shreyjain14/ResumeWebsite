@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run gen && next build",
-    "gen": "npx ts-node ./scripts/generate.ts",
+    "gen": "ts-node scripts/generate.ts",
     "start": "next start",
     "lint": "next lint"
   },
