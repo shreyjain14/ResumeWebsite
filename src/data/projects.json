@@ -1,96 +1,163 @@
 {
   "projects": [
     {
-      "name": "Tradingview Telegram Alerts",
-      "description": "Real-time trading alerts with chart snapshots sent to Telegram, designed to keep traders informed and responsive to market changes",
-      "image": "/tv-tele-alerts.png",
+      "name": "Finance Tracking API",
+      "description": "A finance tracking api with ability to share transactions with friends and set defaults.",
+      "href": "https://github.com/shreyjain14/financeApp-springboot",
+      "image": "/financeapi.webp",
       "tags": [
+        "SpringBoot3",
+        "Kotlin",
+        "MongoDB",
+        "Gemini API"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/financeApp-springboot",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Unveil",
+      "description": "A Social Media App to share your thoughts.",
+      "href": "https://github.com/shreyjain14/social-media-website-backend",
+      "image": "/unveil.png",
+      "tags": [
+        "Flask",
         "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "Selenium",
-        "Telegram Bot API"
+        "React",
+        "SQLite3",
+        "JavaScript",
+        "HTML5",
+        "TailWindCSS"
       ],
       "links": [
         {
-          "name": "Source",
-          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
+          "name": "Source Code Frontend",
+          "href": "https://github.com/shreyjain14/social-media-website-frontend",
+          "icon": "github"
+        },
+        {
+          "name": "Source Code Backend",
+          "href": "https://github.com/shreyjain14/social-media-website-backend",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "NFTVue",
-      "description": "Non-Fungible Tokens (NFTs) Gallery Viewer website that allows users to connect their crypto wallets to view and verify their tokens",
-      "href": "https://nftvue.vercel.app",
-      "image": "/nftvue.png",
+      "name": "Finance Tracking App OLD",
+      "description": "A basic finance tracking.",
+      "href": "https://github.com/shreyjain14/finance-app-backend",
+      "image": "/financeold.png",
       "tags": [
-        "NextJS",
-        "TailwindCSS",
-        "MetaMask",
-        "WalletConnect",
-        "Web3",
-        "NFTScan",
-        "HashKey DID"
+        "Flask",
+        "Python",
+        "React",
+        "MySQL",
+        "Docker",
+        "JavaScript",
+        "HTML5",
+        "TailWindCSS"
       ],
       "links": [
         {
-          "name": "Website",
-          "href": "https://nftvue.vercel.app",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "name": "Portfolio 2023 (Outdated)",
-      "description": "Simple markdown portfolio made with Astro 🚀",
-      "href": "https://tedawf-dot-com.netlify.app",
-      "image": "/old-portfolio.png",
-      "tags": ["Astro", "TailwindCSS", "Netlify", "SEO"],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://tedawf-dot-com.netlify.app",
-          "icon": "globe"
+          "name": "Source Code Frontend",
+          "href": "https://github.com/shreyjain14/finance-app-frontend",
+          "icon": "github"
         },
         {
-          "name": "Source",
-          "href": "https://github.com/tedawf/portfolio-2023",
+          "name": "Source Code Backend",
+          "href": "https://github.com/shreyjain14/finance-app-backend",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Rapid Ride Fight (Final Year)",
-      "description": "3D capture-the-flag, multiplayer boat fighting, with smart AI and water graphics",
-      "href": "https://games.digipen.edu/games/rapid-ride-fight",
-      "image": "/rrf.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "3D"],
+      "name": "Book Writing AI",
+      "description": "A website where users can give a book idea and a target audience, and the AI will generate a whole book with a single press of a button in 2 minutes0.",
+      "href": "https://github.com/shreyjain14/BookAI",
+      "image": "/bookai.png",
+      "tags": [
+        "Flask",
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "BootStrap5"
+      ],
       "links": [
         {
-          "name": "Gameplay",
-          "href": "https://www.youtube.com/watch?v=bge3fiypg5U",
-          "icon": "youtube"
-        },
-        {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=PNAO-aI1Daw",
-          "icon": "youtube"
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/BookAI",
+          "icon": "github"
         }
       ]
     },
     {
-      "name": "Glowing Under (2nd Year)",
-      "description": "2D platformer with a focus on puzzle-solving, no-death exploration and storytelling",
-      "href": "https://games.digipen.edu/games/glowing-under",
-      "image": "/gu.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "2D"],
+      "name": "Skyblock Leaderboard",
+      "description": "A leaderboard website for Hypixel Skyblock Stranded.",
+      "href": "https://github.com/shreyjain14/Hypixel-Skyblock-HOF",
+      "image": "/hof.png",
+      "tags": [
+        "Flask",
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "BootStrap5",
+        "PostgreSQL"
+      ],
       "links": [
         {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=u6RYwBZlSfg",
-          "icon": "youtube"
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/Hypixel-Skyblock-HOF",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Statistics Website",
+      "description": "A website used to track the analytics of my other websites (Stranded Leaderboard).",
+      "href": "https://github.com/shreyjain14/analytics_viewer",
+      "image": "/stats.webp",
+      "tags": [
+        "Flask",
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "BootStrap5",
+        "PostgreSQL"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/analytics_viewer",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "AI News Website",
+      "description": "Innovated an artificial intelligence website that gets news from an API and then rewrites the news and uploads it to my website around 100 time a day if there is new news already not in the database.",
+      "href": "https://github.com/shreyjain14/BookAI",
+      "image": "/ainews.jpg",
+      "tags": [
+        "Flask",
+        "Python",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "BootStrap5",
+        "SQLite3"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/BookAI",
+          "icon": "github"
         }
       ]
     }

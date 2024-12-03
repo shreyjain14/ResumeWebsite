@@ -1,56 +1,39 @@
 {
   "career": [
     {
-      "name": "DBS Bank",
-      "href": "https://www.dbs.com.sg",
-      "title": "Graduate Associate (SEED Programme)",
-      "logo": "/dbs.png",
-      "start": "Jul 2023",
+      "name": "State Art Corp.",
+      "href": "https://stateartcorp.com/",
+      "title": "Data Migration Internship",
+      "logo": "/sac.avif",
+      "start": "Jun 2023",
+      "end": "Jul 2023",
       "description": [
-        "Developed the Java backend for a bank account servicing process with multiple channel integrations using Activiti workflow",
-        "Built a custom database migration tool using Python and MariaDB and facilitated the migration of 1000+ processes from a vendor platform"
+        "Implemented measures to prioritize accessibility and maintain data integrity over the course of 2 weeks.",
+        "Prioritized accessibility and maintained data integrity throughout the process adding support for multiple users to access database boosting efficiency by 2 folds."
       ]
     },
     {
-      "name": "Singapore Institute of Technology",
-      "href": "https://www.singaporetech.edu.sg",
-      "title": "Software Developer (Contract)",
-      "logo": "/sit.png",
-      "start": "Apr 2023",
-      "end": "Jun 2023",
+      "name": "Chahat Accessories",
+      "href": "https://chahataccessories.com/",
+      "title": "Web Development Internship",
+      "logo": "/chahataccessories.avif",
+      "start": "Jan 2023",
+      "end": "Mar 2023",
       "description": [
-        "Built NFTVue, a NFT gallery website that allows students to connect their crypto wallets to view and verify their school event-issued NFTs",
-        "Worked on DemoConstruct, a full-stack web application (React + Python) that uses Meshroom to reconstruct 3D models from captured images"
-      ],
-      "links": [
-        {
-          "name": "NFTVue",
-          "href": "https://nftvue.vercel.app",
-          "icon": "globe"
-        }
+        "Designed and revamped a new e-commerce store for the online fashion accessories company helping them increasing customer retention by 3 times.",
+        "Incorporated bespoke design to elevate the brand's online presence getting them over 5 times more visitors."
       ]
     },
     {
-      "name": "DBS Bank",
-      "href": "https://www.dbs.com.sg",
-      "title": "Software Developer (Intern)",
-      "logo": "/dbs.png",
-      "start": "May 2022",
-      "end": "Dec 2022",
+      "name": "Freelance",
+      "title": "Video Editor",
+      "href": "https://youtube.com/",
+      "logo": "/premiere.png",
+      "start": "Dec 2019",
+      "end": "Mar 2023",
       "description": [
-        "Worked on the backend for the digital exchange and asset custody application using Spring Boot and Java",
-        "Built an admin dashboard web application for a DBS Metaverse event using Spring Security and Angular"
-      ]
-    },
-    {
-      "name": "Activate Interactive Pte Ltd",
-      "href": "https://www.activate.sg",
-      "title": "Software Developer (Intern)",
-      "logo": "/activate.png",
-      "start": "May 2019",
-      "end": "Aug 2019",
-      "description": [
-        "Developed RP Connect, the iOS and Android mobile app for Republic Polytechnic using React Native"
+        "Edited content that generated over 70 million impressions by staying up-to date on industry trends.",
+        "Analyzed viewer data to optimize content, increasing the watch time by 3.5 minutes."
       ]
     }
   ]
