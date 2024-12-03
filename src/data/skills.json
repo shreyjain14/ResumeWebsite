@@ -1,0 +1,31 @@
+{
+  "Languages": [
+    "C",
+    "Dart",
+    "Python",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Java",
+    "PHP",
+    "Kotlin"
+  ],
+  "Frameworks & Libraries": [
+    "SpringBoot",
+    "Flutter",
+    "Flask",
+    "Django",
+    "Pandas",
+    "NumPy"
+  ],
+  "Databases": ["MySQL", "PL/SQL", "SQLite3", "PostgreSQL", "MongoDB"],
+  "Repository Management": ["Git", "GitHub"],
+  "Technologies": [
+    "Docker",
+    "AWS Amplify",
+    "AWS S3",
+    "MATLAB",
+    "Adobe After Effects",
+    "Adobe Premiere Pro"
+  ]
+} 
