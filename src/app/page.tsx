@@ -8,40 +8,42 @@ import Image from "next/image";
 import Link from "next/link";
 import path from "path";
 import Skills from "@/components/Skills";
+import aboutData from "@/data/about.json";
+import { aboutSchema } from "@/lib/schemas";
 
 const blogDirectory = path.join(process.cwd(), "content");
-const SHREY_BIRTH_YEAR = 2003;
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
+  const birthYear = aboutSchema.parse(aboutData).birthYear;
+  const name = aboutSchema.parse(aboutData).name;
+  const location = aboutSchema.parse(aboutData).location;
+  const description = aboutSchema.parse(aboutData).description;
+  const image = aboutSchema.parse(aboutData).image;
+  const resumeLink = aboutSchema.parse(aboutData).resumeLink;
+
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
           className="rounded-lg"
-          src="/shrey.png"
-          alt="Photo of Shrey"
+          src={image}
+          alt={"Photo of " + name}
           width={175}
           height={175}
           priority
         />
         <div className="flex flex-col">
-          <h1 className="title text-5xl">Shrey Jain</h1>
+          <h1 className="title text-5xl">{name}</h1>
           <p className="mt-4 font-light">
             {/* Update my age */}
-            {new Date().getFullYear() - SHREY_BIRTH_YEAR}
-            -year-old computer enthusiast based in Bengaluru, India.
+            {new Date().getFullYear() - birthYear}
+            -year-old computer enthusiast based in {location}.
           </p>
-          <p className="mt-4 font-light">
-            I am creating projects to simplify my life and boost productivity.
-            Always looking for innovative ways to streamline everyday tasks.
-          </p>
+          <p className="mt-4 font-light">{description}</p>
 
           <section className="mt-8 flex items-center gap-8">
-            <Link
-              href="https://drive.google.com/file/d/10IWhwsvkV7-ragzExKWLLgvqVr_YLPU8/view"
-              target="_blank"
-            >
+            <Link href={resumeLink} target="_blank">
               <Button variant="outline">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />

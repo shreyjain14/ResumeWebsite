@@ -14,6 +14,11 @@
       "name": "Email",
       "href": "mailto:shrey@shreyjain.me",
       "icon": "mail"
+    },
+    {
+      "name": "X",
+      "href": "https://x.com/Jain__Shrey",
+      "icon": "twitter"
     }
   ]
 }
