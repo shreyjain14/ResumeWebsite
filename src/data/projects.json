@@ -1,20 +1,27 @@
 {
   "projects": [
     {
-      "name": "Finance Tracking API",
-      "description": "A finance tracking api with ability to share transactions with friends and set defaults.",
+      "name": "AI Finance Tracking App",
+      "description": "A finance tracking api with ability to share transactions with friends and set defaults with AI summarization of transactions.",
       "href": "https://github.com/shreyjain14/financeApp-springboot",
       "image": "/financeapi.webp",
       "tags": [
         "SpringBoot3",
         "Kotlin",
         "MongoDB",
-        "Gemini API"
+        "Next.js",
+        "TailWindCSS",
+        "Ollama"
       ],
       "links": [
         {
-          "name": "Source Code",
+          "name": "Source Code Backend",
           "href": "https://github.com/shreyjain14/financeApp-springboot",
+          "icon": "github"
+        },
+        {
+          "name": "Source Code Frontend",
+          "href": "https://github.com/shreyjain14/financeApp-new-frontend",
           "icon": "github"
         }
       ]

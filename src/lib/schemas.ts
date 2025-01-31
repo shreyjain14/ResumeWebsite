@@ -47,7 +47,7 @@ export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
 export const socialSchema = z.object({ socials: z.array(iconLink) });
 export const aboutSchema = z.object({ 
-  birthYear: z.number(),
+  birthDate: z.string(),
   name: z.string(),
   location: z.string(),
   description: z.string(),

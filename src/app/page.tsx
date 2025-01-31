@@ -10,18 +10,19 @@ import path from "path";
 import Skills from "@/components/Skills";
 import aboutData from "@/data/about.json";
 import { aboutSchema } from "@/lib/schemas";
+import { calculateAge } from "@/lib/utils";
 
 const blogDirectory = path.join(process.cwd(), "content");
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
-  const birthYear = aboutSchema.parse(aboutData).birthYear;
+  const birthDate = aboutSchema.parse(aboutData).birthDate;
   const name = aboutSchema.parse(aboutData).name;
   const location = aboutSchema.parse(aboutData).location;
   const description = aboutSchema.parse(aboutData).description;
   const image = aboutSchema.parse(aboutData).image;
   const resumeLink = aboutSchema.parse(aboutData).resumeLink;
-
+  
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
@@ -36,9 +37,7 @@ export default async function Home() {
         <div className="flex flex-col">
           <h1 className="title text-5xl">{name}</h1>
           <p className="mt-4 font-light">
-            {/* Update my age */}
-            {new Date().getFullYear() - birthYear}
-            -year-old computer enthusiast based in {location}.
+            {calculateAge(birthDate)}-year-old computer enthusiast based in {location}.
           </p>
           <p className="mt-4 font-light">{description}</p>
 
