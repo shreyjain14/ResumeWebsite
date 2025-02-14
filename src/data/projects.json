@@ -1,6 +1,47 @@
 {
   "projects": [
     {
+      "name": "Make My Chat",
+      "description": "A website to make and host your own AI Chat Bots",
+      "href": "https://makemychat.shreyjain.me/",
+      "image": "/mmc.png",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TailWindCSS",
+        "Google Gemini 2.0 Flash",
+        "PostgreSQL",
+        "GitHub OAuth",
+        "TypeScript"
+
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://makemychat.shreyjain.me/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Tank Of War Engine",
+      "description": "A game engine for a game called Tank Of War for Christ Univeristy hackathon for participants to make their AI Bots on.",
+      "href": "https://github.com/shreyjain14/TankOfWars/",
+      "image": "/tankofwar.webp",
+      "tags": [
+        "Java",
+        "YAML"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/TankOfWars/",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "AI Finance Tracking App",
       "description": "A finance tracking api with ability to share transactions with friends and set defaults with AI summarization of transactions.",
       "href": "https://github.com/shreyjain14/financeApp-springboot",
