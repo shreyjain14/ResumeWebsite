@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-5092511532505819" />
+      </head>
       <body
         className={cn(
           "mx-auto flex min-h-screen max-w-3xl flex-col px-8 font-sans antialiased",
