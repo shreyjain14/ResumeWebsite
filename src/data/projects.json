@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "name": "MindCare",
+      "description": "A mental health app that uses AI Chat with advices upvoted by users. This app was made in 24 hours for a hackathon .",
+      "href": "https://github.com/shreyjain14/MentalHealthAI",
+      "image": "/mind.png",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "Next.js",
+        "PostgreSQL",
+        "TailWindCSS",
+        "Ollama",
+        "Google Gemini 2.0 Flash",
+        "TypeScript"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/MentalHealthAI",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Make My Chat",
       "description": "A website to make and host your own AI Chat Bots",
       "href": "https://makemychat.shreyjain.me/",
