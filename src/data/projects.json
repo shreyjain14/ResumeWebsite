@@ -178,7 +178,8 @@
         "HTML5",
         "CSS3",
         "BootStrap5",
-        "PostgreSQL"
+        "PostgreSQL",
+        "Docker"
       ],
       "links": [
         {

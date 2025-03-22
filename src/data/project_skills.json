@@ -1,0 +1,36 @@
+{
+    "Languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "Kotlin"
+    ],
+    "Libraries and Frameworks": [
+      "Flask",
+      "FastAPI",
+      "Next.js",
+      "React",
+      "SpringBoot3"
+    ],
+    "Databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "SQLite3"
+    ],
+    "Frontend": [
+      "TailWindCSS",
+      "HTML5",
+      "CSS3",
+      "BootStrap5"
+    ],
+    "AI and ML": [
+      "Ollama",
+      "Google Gemini 2.0 Flash"
+    ],
+    "DevOps": [
+      "Docker",
+      "GitHub OAuth"
+    ]
+  }
