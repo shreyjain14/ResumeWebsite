@@ -9,7 +9,7 @@ export default function SkillsFilter() {
   const projects = projectSchema.parse(data).projects;
   const allProjectSkills = Array.from(new Set(projects.flatMap(project => project.tags)));
   const [selectedSkills, setSelectedSkills] = useState<string[]>([]);
-  const [isExpanded, setIsExpanded] = useState(true);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   // Get all skills from the categories
   const categorizedSkills = Object.values(skillsData).flat();

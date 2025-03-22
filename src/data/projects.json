@@ -75,7 +75,8 @@
         "MongoDB",
         "Next.js",
         "TailWindCSS",
-        "Ollama"
+        "Ollama",
+        "TypeScript"
       ],
       "links": [
         {
