@@ -1,6 +1,18 @@
 {
   "career": [
     {
+      "name": "Kuldip Oswal Hosiery Mills Pvt. Ltd.",
+      "href": "https://kohmpl.com/",
+      "title": "Software Developer and Consultant",
+      "logo": "/kohm.png",
+      "start": "May 2025",
+      "end": "Present",
+      "description": [
+        "Made a inventory management system and a booking system for fabric's using FastAPI framework in python with a PostgreSQL database along with a front-end using Next.js and JWT for authentication.",
+        "Prioritized easy UI for non-technical people to use."
+      ]
+    },
+    {
       "name": "State Art Corp.",
       "href": "https://stateartcorp.com/",
       "title": "Data Migration Internship",

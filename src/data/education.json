@@ -6,8 +6,7 @@
       "title": "Masters in Computer Application",
       "logo": "/cu.jpg",
       "start": "Jun 2024",
-      "description": [
-      ],
+      "description": [],
       "links": [
         {
           "name": "Web Development Project",
@@ -18,6 +17,11 @@
           "name": "Software Development Project I",
           "href": "https://github.com/shreyjain14/financeApp-springboot/",
           "icon": "github"
+        },
+        {
+          "name": "Software Development Project II",
+          "href": "http://makemychat.shreyjain.me/",
+          "icon": "external-link"
         }
       ]
     },

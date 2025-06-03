@@ -1,6 +1,60 @@
 {
   "projects": [
     {
+      "name": "Inventory Management and Booking System",
+      "description": "An inventory management and booking system for havting an inventory count and booking fabric's.",
+      "image": "/ims.png",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "PostgreSQL",
+        "Next.js",
+        "TailWindCSS",
+        "TypeScript",
+        "JWT",
+        "Restful API"
+      ],
+      "links": []
+    },
+    {
+      "name": "Skyblock Leaderboards",
+      "description": "A leaderboard website for Hypixel Skyblock using Soopy's API.",
+      "href": "https://sky.shreyjain.me/",
+      "image": "/sky.png",
+      "tags": [
+        "Next.js",
+        "TailWindCSS",
+        "TypeScript"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://sky.shreyjain.me/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Skyblock Stranded Leaderboard V2",
+      "description": "A leaderboard website for Hypixel Skyblock Stranded.",
+      "href": "https://strandedhof.shreyjain.me/",
+      "image": "/hofv2.png",
+      "tags": [
+        "Next.js",
+        "TailWindCSS",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://strandedhof.shreyjain.me/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "MindCare",
       "description": "A mental health app that uses AI Chat with advices upvoted by users. This app was made in 24 hours for a hackathon .",
       "href": "https://github.com/shreyjain14/MentalHealthAI",
@@ -37,7 +91,6 @@
         "PostgreSQL",
         "GitHub OAuth",
         "TypeScript"
-
       ],
       "links": [
         {
