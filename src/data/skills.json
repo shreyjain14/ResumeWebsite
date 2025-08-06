@@ -9,7 +9,8 @@
     "Java",
     "PHP",
     "Kotlin",
-    "Go"
+    "Go",
+    "R"
   ],
   "Frameworks & Libraries": [
     "SpringBoot",
@@ -17,13 +18,25 @@
     "Flask",
     "Django",
     "Pandas",
-    "NumPy"
+    "NumPy",
+    "scikit-learn",
+    "TensorFlow"
   ],
-  "Databases": ["MySQL", "PL/SQL", "SQLite3", "PostgreSQL", "MongoDB"],
-  "Repository Management": ["Git", "GitHub"],
+  "Databases": [
+    "MySQL",
+    "PL/SQL",
+    "SQLite3",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "Repository Management": [
+    "Git",
+    "GitHub"
+  ],
   "Technologies": [
     "Docker",
     "AWS Amplify",
+    "AWS EC2",
     "AWS S3",
     "MATLAB",
     "Adobe After Effects",
@@ -32,4 +45,4 @@
   "Others": [
     "Prompt Enginnering"
   ]
-} 
+}

@@ -1,0 +1,41 @@
+{
+    "opensource": [
+        {
+            "name": "Skyblock Profile Viewer",
+            "organization": "Meowdding",
+            "startDate": "2025-07-28",
+            "endDate": null,
+            "description": "Contributed to an open-source Minecraft mod (85K+ downloads) using Kotlin and FabricAPI. Added INR currency formatting to the finance tracker for better accessibility for Indian users. Improved UX by implementing conditional UI hiding for Stranded profiles, displaying only relevant features based on game mode. Collaborated closely with maintainers through code reviews and iterative improvements.",
+            "technologies": [
+                "Kotlin",
+                "FabricAPI"
+            ],
+            "links": [
+                {
+                    "name": "GitHub Repository",
+                    "href": "https://github.com/meowdding/skyblock-pv",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "TankOfWars Game Engine",
+            "organization": "Personal Project",
+            "startDate": "2024-12-21",
+            "endDate": null,
+            "description": "Developed an open-source game engine for Tank Of War competitions, allowing participants to create AI bots for strategic gameplay.",
+            "technologies": [
+                "Java",
+                "Kotlin",
+                "YAML"
+            ],
+            "links": [
+                {
+                    "name": "GitHub Repository",
+                    "href": "https://github.com/shreyjain14/TankOfWars/",
+                    "icon": "github"
+                }
+            ]
+        }
+    ]
+}

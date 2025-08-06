@@ -43,8 +43,20 @@ const experience = z.object({
 });
 export type Experience = z.infer<typeof experience>;
 
+const opensource = z.object({
+  name: z.string(),
+  organization: z.string(),
+  startDate: z.string(),
+  endDate: z.string().nullable(),
+  description: z.string(),
+  technologies: z.array(z.string()),
+  links: z.array(iconLink),
+});
+export type OpenSource = z.infer<typeof opensource>;
+
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
+export const opensourceSchema = z.object({ opensource: z.array(opensource) });
 export const socialSchema = z.object({ socials: z.array(iconLink) });
 export const aboutSchema = z.object({ 
   birthDate: z.string(),
