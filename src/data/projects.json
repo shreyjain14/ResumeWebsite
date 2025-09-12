@@ -154,6 +154,18 @@
         "Vite",
         "TailwindCSS",
         "JavaScript"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://inbloom.christuniversity.in/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source Code",
+          "href": "https://github.com/sumith300/Inbloom",
+          "icon": "github"
+        }
       ]
     },
     {
