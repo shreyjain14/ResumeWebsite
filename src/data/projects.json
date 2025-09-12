@@ -145,6 +145,18 @@
       ]
     },
     {
+      "name": "InBloom Website",
+      "description": "A website for the Christ University's Inbloom event which showed all the scheuled events along with tracking the current score.",
+      "href": "https://inbloom.christuniversity.in/",
+      "image": "/inbloom.png",
+      "tags": [
+        "React",
+        "Vite",
+        "TailwindCSS",
+        "JavaScript"
+      ]
+    },
+    {
       "name": "Unveil",
       "description": "A Social Media App to share your thoughts.",
       "href": "https://github.com/shreyjain14/social-media-website-backend",
