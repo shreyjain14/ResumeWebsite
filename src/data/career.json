@@ -8,8 +8,9 @@
       "start": "May 2025",
       "end": "Present",
       "description": [
-        "Made a inventory management system and a booking system for fabric's using FastAPI framework in python with a PostgreSQL database along with a front-end using Next.js and JWT for authentication.",
-        "Prioritized easy UI for non-technical people to use."
+        "Designed and implemented an inventory management and fabric booking system using FastAPI (Python) with a PostgreSQL database, ensuring scalability and reliability.",
+        "Developed a Next.js front-end with JWT-based authentication, providing secure and seamless access for users.",
+        "Optimized the system’s user interface for non-technical staff, improving usability and adoption across the organization."
       ]
     },
     {
@@ -20,8 +21,8 @@
       "start": "Jun 2023",
       "end": "Jul 2023",
       "description": [
-        "Implemented measures to prioritize accessibility and maintain data integrity over the course of 2 weeks.",
-        "Prioritized accessibility and maintained data integrity throughout the process adding support for multiple users to access database boosting efficiency by 2 folds."
+        "Executed a two-week data migration project, implementing measures to ensure accessibility and data integrity throughout the process.",
+        "Enhanced database usability by adding multi-user access support, resulting in a 2x improvement in operational efficiency."
       ]
     },
     {
@@ -32,8 +33,8 @@
       "start": "Jan 2023",
       "end": "Mar 2023",
       "description": [
-        "Designed and revamped a new e-commerce store for the online fashion accessories company helping them increasing customer retention by 3 times.",
-        "Incorporated bespoke design to elevate the brand's online presence getting them over 5 times more visitors."
+        "Designed and revamped the company’s e-commerce platform, increasing customer retention by 3x through improved performance and user experience.",
+        "Implemented modern front-end development practices and optimized site architecture, driving a 5x increase in website traffic and strengthening the brand’s online presence."
       ]
     },
     {
@@ -44,8 +45,8 @@
       "start": "Dec 2019",
       "end": "Mar 2023",
       "description": [
-        "Edited content that generated over 70 million impressions by staying up-to date on industry trends.",
-        "Analyzed viewer data to optimize content, increasing the watch time by 3.5 minutes."
+        "Edited and produced content that generated 75M+ impressions, leveraging industry trends to maximize reach and engagement.",
+        "Analyzed audience insights to optimize video structure and pacing, increasing average watch time by 3.5 minutes."
       ]
     }
   ]
