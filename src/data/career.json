@@ -1,12 +1,26 @@
 {
   "career": [
     {
+      "name": "Leveled CV",
+      "href": "https://leveledcv.com/",
+      "title": "Co-Founder",
+      "logo": "/leveledcv.png",
+      "start": "Oct 2025",
+      "end": "Present",
+      "description": [
+        "Drove both technical execution and product strategy, aligning engineering goals with business objectives.",
+        "Deployed and maintained infrastructure on Google Cloud Platform using Compute Engine, Cloud Run, and Nginx for production readiness.",
+        "Led a 3-member developer team, reviewing code, guiding architecture decisions, and overseeing feature implementation.",
+        "Architected and developed the full-stack platform using Spring Boot, PostgreSQL, and React + Vite, managing all backend and frontend systems"
+      ]
+    },
+    {
       "name": "Kuldip Oswal Hosiery Mills Pvt. Ltd.",
       "href": "https://kohmpl.com/",
       "title": "Software Developer and Consultant",
       "logo": "/kohm.png",
       "start": "May 2025",
-      "end": "Present",
+      "end": "July 2025",
       "description": [
         "Designed and implemented an inventory management and fabric booking system using FastAPI (Python) with a PostgreSQL database, ensuring scalability and reliability.",
         "Developed a Next.js front-end with JWT-based authentication, providing secure and seamless access for users.",
