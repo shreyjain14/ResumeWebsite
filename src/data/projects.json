@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "name": "LeveledCV",
+      "description": "A platform that streamlines resume creation using AI, offering tailored resumesin seconds.",
+      "href": "https://leveledcv.com/",
+      "image": "/lcv.png",
+      "tags": [
+        "Spring Boot",
+        "PostgreSQL",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Google Cloud Platform",
+        "Docker"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://leveledcv.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Sea Creatures Plugin",
       "description": "Developed an open-source Java (PaperMC) plugin that replaces fishing loot with spawnable sea creatures.",
       "image": "/ssc.png",
