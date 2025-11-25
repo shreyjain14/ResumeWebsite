@@ -59,7 +59,7 @@ export function ProjectCard({ project }: Props) {
             {links.toSorted().map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
-                  <Icon name={link.icon} className="size-3" />
+                  {link.icon && <Icon name={link.icon} className="size-3" />}
                   {link.name}
                 </Badge>
               </Link>

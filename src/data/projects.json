@@ -46,6 +46,25 @@
       ]
     },
     {
+      "name": "SMP Currency Plugin",
+      "description": "A Minecraft PaperMC plugin that introduces a custom currency system for SMP servers.",
+      "image": "/coin.png",
+      "href": "https://github.com/shreyjain14/smpCurrency",
+      "tags": [
+        "Java",
+        "PaperMC",
+        "SpigotAPI",
+        "YAML"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/smpCurrency",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Inventory Management and Booking System",
       "description": "An inventory management and booking system for havting an inventory count and booking fabric's.",
       "image": "/ims.png",
