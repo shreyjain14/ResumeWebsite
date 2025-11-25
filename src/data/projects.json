@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "name": "Sea Creatures Plugin",
+      "description": "Developed an open-source Java (PaperMC) plugin that replaces fishing loot with spawnable sea creatures.",
+      "image": "/ssc.png",
+      "tags": [
+        "Java",
+        "PaperMC",
+        "SpigotAPI",
+        "YAML"
+      ],
+      "links": [
+        {
+          "name": "Source Code",
+          "href": "https://github.com/shreyjain14/SeaCreaturesPlugin"
+        },
+        {
+          "name": "Modrinth",
+          "href": "https://modrinth.com/plugin/seacreatures"
+        }
+      ]
+    },
+    {
       "name": "Inventory Management and Booking System",
       "description": "An inventory management and booking system for havting an inventory count and booking fabric's.",
       "image": "/ims.png",
@@ -72,7 +93,7 @@
       "links": [
         {
           "name": "Source Code",
-          "href": "https://github.com/shreyjain14/MentalHealthAI",
+          "href": "https://github.com/darkda5h/MentalHealthAI",
           "icon": "github"
         }
       ]
