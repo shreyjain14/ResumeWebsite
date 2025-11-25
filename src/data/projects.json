@@ -35,11 +35,13 @@
       "links": [
         {
           "name": "Source Code",
-          "href": "https://github.com/shreyjain14/SeaCreaturesPlugin"
+          "href": "https://github.com/shreyjain14/SeaCreaturesPlugin",
+          "icon": "github"
         },
         {
           "name": "Modrinth",
-          "href": "https://modrinth.com/plugin/seacreatures"
+          "href": "https://modrinth.com/plugin/seacreatures",
+          "icon": "external-link"
         }
       ]
     },
