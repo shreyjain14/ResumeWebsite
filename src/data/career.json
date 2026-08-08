@@ -1,12 +1,38 @@
 {
   "career": [
     {
+      "name": "State Art Corp.",
+      "href": "https://stateartcorp.com/",
+      "title": "Software Engineer",
+      "start": "Apr 2026",
+      "end": "Present",
+      "logo": "/sac.avif",
+      "description": [
+        "Designed and developed a microservices-based apparel operations platform covering inventory, order management, catalog creation, user portals, organization analytics, and automated WhatsApp alerts.",
+        "Built the platform with Spring Boot, Spring Cloud, FastAPI, Next.js, Redis, and PostgreSQL, including vector-based image search for faster product discovery.",
+        "Deployed and managed production services on VPS infrastructure using Dokploy, coordinating multiple backend services and frontend applications."
+      ]
+    },
+    {
+      "name": "Raincoat Games",
+      "href": "https://raincoatgames.com/",
+      "title": "Gameplay and Tools Intern",
+      "start": "Jan 2026",
+      "end": "Mar 2026",
+      "logo": null,
+      "description": [
+        "Designed a microservices-based data platform for Roblox and Hytale games, centralizing game data across servers with Spring Boot, Spring Cloud, and MongoDB.",
+        "Implemented separate databases and configurable data models for each game, creating a flexible architecture that supported diverse game-specific requirements.",
+        "Led a 3-member developer team, reviewing code, guiding architecture decisions, and overseeing feature implementation."
+      ]
+    },
+    {
       "name": "Leveled CV",
       "href": "https://leveledcv.com/",
       "title": "Co-Founder",
       "logo": "/leveledcv.png",
       "start": "Oct 2025",
-      "end": "Present",
+      "end": "Jan 2026",
       "description": [
         "Drove both technical execution and product strategy, aligning engineering goals with business objectives.",
         "Deployed and maintained infrastructure on Google Cloud Platform using Compute Engine, Cloud Run, and Nginx for production readiness.",
